@@ -2,59 +2,50 @@
 ### TECH COSTS ###
 ##################
 #If you change any of these, use replace in files so the values are the same across all files
-
 @tier1cost1 = 500
 @tier1cost2 = 640
 @tier1cost3 = 780
-
 @tier2cost1 = 1000
 @tier2cost2 = 1500
 @tier2cost3 = 2000
-
 @tier3cost1 = 3000
 @tier3cost2 = 4000
 @tier3cost3 = 5000
-
 @tier4cost1 = 6000
 @tier4cost2 = 8000
 @tier4cost3 = 10000
-
 @tier5cost1 = 14000
 @tier5cost2 = 17000
 @tier5cost3 = 20000
-
 ####################
 ### TECH WEIGHTS ###
 ####################
-
 @tier1weight1 = 100
 @tier1weight2 = 95
 @tier1weight3 = 90
-
 @tier2weight1 = 85
 @tier2weight2 = 75
 @tier2weight3 = 70
-
 @tier3weight1 = 65
 @tier3weight2 = 60
 @tier3weight3 = 50
-
 @tier4weight1 = 45
 @tier4weight2 = 40
 @tier4weight3 = 35
-
 @tier5weight1 = 30
 @tier5weight2 = 25
 @tier5weight3 = 20
-
 af_tech_advanced_atmospheric_manipulation = {
 	cost = @tier3cost3
 	area = society
 	tier = 3
-	category = { new_worlds }
-	prerequisites = { "tech_ecological_adaptation" }
+	category = {
+		new_worlds
+	}
+	prerequisites = {
+		"tech_ecological_adaptation"
+	}
 	weight = @tier3weight3
-	
 	weight_modifier = {
 		modifier = {
 			factor = 0.1
@@ -70,7 +61,6 @@ af_tech_advanced_atmospheric_manipulation = {
 			has_ascension_perk = ap_world_shaper
 		}
 	}
-	
 	ai_weight = {
 		modifier = {
 			factor = 1.25
@@ -79,17 +69,21 @@ af_tech_advanced_atmospheric_manipulation = {
 				has_trait = "leader_trait_expertise_new_worlds"
 			}
 		}
-	}	
+	}
 }
 
 af_tech_tectonic_activity_control_theory = {
 	cost = @tier4cost2
 	area = society
 	tier = 4
-	category = { new_worlds }
-	prerequisites = { "af_tech_advanced_atmospheric_manipulation" "tech_climate_restoration" }
+	category = {
+		new_worlds
+	}
+	prerequisites = {
+		"af_tech_advanced_atmospheric_manipulation"
+		"tech_climate_restoration"
+	}
 	weight = @tier4weight2
-	
 	weight_modifier = {
 		modifier = {
 			factor = 0.1
@@ -105,7 +99,6 @@ af_tech_tectonic_activity_control_theory = {
 			has_ascension_perk = ap_world_shaper
 		}
 	}
-	
 	ai_weight = {
 		modifier = {
 			factor = 1.25
@@ -114,7 +107,7 @@ af_tech_tectonic_activity_control_theory = {
 				has_trait = "leader_trait_expertise_new_worlds"
 			}
 		}
-	}	
+	}
 }
 
 af_tech_gas_giant_compression = {
@@ -122,10 +115,13 @@ af_tech_gas_giant_compression = {
 	area = society
 	tier = 4
 	is_rare = yes
-	category = { new_worlds }
-	prerequisites = { "af_tech_tectonic_activity_control_theory" }
+	category = {
+		new_worlds
+	}
+	prerequisites = {
+		"af_tech_tectonic_activity_control_theory"
+	}
 	weight = @tier4weight3
-	
 	weight_modifier = {
 		modifier = {
 			factor = 0.1
@@ -141,7 +137,6 @@ af_tech_gas_giant_compression = {
 			has_ascension_perk = ap_world_shaper
 		}
 	}
-	
 	ai_weight = {
 		modifier = {
 			factor = 1.25
@@ -150,7 +145,7 @@ af_tech_gas_giant_compression = {
 				has_trait = "leader_trait_expertise_new_worlds"
 			}
 		}
-	}	
+	}
 }
 
 af_tech_artifical_planet_construction = {
@@ -158,10 +153,13 @@ af_tech_artifical_planet_construction = {
 	area = society
 	tier = 5
 	is_rare = yes
-	category = { new_worlds }
-	prerequisites = { "af_tech_tectonic_activity_control_theory" }
+	category = {
+		new_worlds
+	}
+	prerequisites = {
+		"af_tech_tectonic_activity_control_theory"
+	}
 	weight = @tier5weight1
-	
 	weight_modifier = {
 		modifier = {
 			factor = 0.1
@@ -177,7 +175,6 @@ af_tech_artifical_planet_construction = {
 			has_ascension_perk = ap_world_shaper
 		}
 	}
-	
 	ai_weight = {
 		modifier = {
 			factor = 1.25
@@ -186,5 +183,5 @@ af_tech_artifical_planet_construction = {
 				has_trait = "leader_trait_expertise_new_worlds"
 			}
 		}
-	}	
+	}
 }
