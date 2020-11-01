@@ -1,0 +1,13 @@
+﻿l_german:
+
+ af_tech_advanced_atmospheric_manipulation:0 "Advanced Atomspheric Manipulation"
+ af_tech_advanced_atmospheric_manipulation_desc:0 "With knowledge gained from manipulating various planets, it is possible to modify a previously lifeless planet to more bearable one."
+
+ af_tech_tectonic_activity_control_theory:0 "Tectonic Activity Control Theory"
+ af_tech_tectonic_activity_control_theory_desc:0 "By controlling the activity of a planetary core with a lot of energy, we can terraform planets which are either too hot or too cold to tame just with atmosphere manipulation."
+
+ af_tech_gas_giant_compression:0 "Gas Giant Compression"
+ af_tech_gas_giant_compression_desc:0 "By compressing gas into solid matter, we can create gas giants into solid, livable planets in expanse of immense energy and time."
+ 
+ af_tech_artifical_planet_construction:0 "Artificial Planet Construction"
+ af_tech_artifical_planet_construction_desc:0 "With the help of a large-scale artificial gravity generator, it is possible to re-shape these asteroids into micro planets. Though the size of the micro planets will be really small."

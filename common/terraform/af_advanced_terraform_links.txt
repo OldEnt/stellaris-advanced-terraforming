@@ -1,0 +1,257 @@
+# Barren
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_desert"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_arid"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_savannah"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 12000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+		has_ascension_perk = ap_world_shaper
+	}
+}
+
+# Cold Barren
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_tundra"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_arctic"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_alpine"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 13000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+		has_ascension_perk = ap_world_shaper
+	}
+}
+
+# Toxic
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_continental"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_tropical"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_ocean"
+	
+	energy = 10000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 13000
+	
+	condition = {
+		has_technology = "af_tech_advanced_atmospheric_manipulation"
+		has_ascension_perk = ap_world_shaper
+	}
+}
+
+# Frozen
+
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_arctic"
+	
+	energy = 14000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_tectonic_activity_control_theory"
+	}
+}
+
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 13000
+	
+	condition = {
+		has_technology = "af_tech_tectonic_activity_control_theory"
+		has_ascension_perk = ap_world_shaper
+	}
+}
+
+# Lava
+
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_tropical"
+	
+	energy = 14000
+	duration = 9000
+	
+	condition = {
+		has_technology = "af_tech_tectonic_activity_control_theory"
+	}
+}
+
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 14000
+	
+	condition = {
+		has_technology = "af_tech_tectonic_activity_control_theory"
+		has_ascension_perk = ap_world_shaper
+	}
+}
+
+# Astroid & Gas Giants
+
+terraform_link = {
+	from = "pc_gas_giant"
+	to = "pc_ocean"
+	
+	energy = 20000
+	duration = 15000
+	condition = {
+		has_technology = "af_tech_gas_giant_compression"
+	}
+}
+
+terraform_link = {
+	from = "pc_gas_giant"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 20000
+	
+	condition = {
+		has_technology = "af_tech_gas_giant_compression"
+		has_ascension_perk = ap_world_shaper
+	}
+}
+
+terraform_link = {
+	from = "pc_asteroid"
+	to = "pc_desert"
+	
+	energy = 20000
+	duration = 8000
+	
+	condition = {
+		has_technology = "af_tech_artifical_planet_construction"
+	}
+}
+
+terraform_link = {
+	from = "pc_asteroid"
+	to = "pc_gaia"
+	
+	energy = 20000
+	duration = 8400
+	
+	condition = {
+		has_technology = "af_tech_artifical_planet_construction"
+		has_ascension_perk = ap_world_shaper
+	}
+}
